@@ -22,10 +22,6 @@ mainframe.BorderSizePixel = 0
 mainframe.Position = UDim2.new(0.119054109, 0, 0.235310376, 0)
 mainframe.Size = UDim2.new(0, 851, 0, 484)
 
-UISizeConstraint.Parent = mainframe
-
-UITextSizeConstraint.Parent = mainframe
-
 ImageLabel.Parent = mainframe
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -104,4 +100,5 @@ local function LHZE_fake_script() -- mainframe.LocalScript
 
 end
 coroutine.wrap(LHZE_fake_script)()
+
 
